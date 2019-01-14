@@ -1,0 +1,99 @@
+body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 100%; 
+  font-family: "Times New Roman", Times, serif;
+}
+
+headers, nav, input {
+    display: none;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+section {
+    page-break-after: always;
+    page-break-before: auto;
+}
+
+table, th, tr, td {
+    background: azure none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-spacing: 1px;
+    text-align: left;
+    width: 100%;
+    page-break-inside: avoid;
+    table-layout: fixed;
+}
+
+caption {
+    caption-side: top;
+}
+
+.welcomeImg {
+  height: auto;
+  width: 100%;
+  border: solid;
+}
+.itemImg {
+  height: 60px;
+  width: 60px;
+  float: left;
+  vertical-align: baseline;
+}
+
+h1,h2{
+  text-align: center;
+  text-transform: capitalize;
+  color: red;
+  margin-left: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+  color: red;
+  font: 1em "Times New Roman", serif;
+  orphans: 2;
+  widows: 2;
+}
+
+ul {
+    list-style-type: square;
+    list-style-image: url("https://www.kobciye.co/wp-content/uploads/2014/03/arrow.png");
+    list-style-position: outside;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.warranty {
+  text-align: left;
+  text-indent: 50px;
+  color: red;
+  font-variant: small-caps;
+  font-size: 80%;
+}
+
+.return_policy {
+    text-align: center;
+    color:red;
+    text-decoration: underline;
+}
+
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0; /*em is relative font-size*/
+}
+

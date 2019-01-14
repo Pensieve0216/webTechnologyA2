@@ -1,0 +1,136 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            All You Need Supermarket
+        </title>
+        <link rel="stylesheet" type="text/css" media="screen" href="screen.css"> 
+        <link rel="stylesheet" type="text/css" media="print" href="print.css">
+    </head>
+   
+    <body>
+        <nav>
+            <a href="#topProducts">Top selling products</a> 
+            <a href="#openingTimes">Opening times</a>
+            <a href="#contact">Contact</a>
+            <a href="#topStaff">Top staff</a>
+            <a href="#service">Service</a>
+            <a href="#returnPolicy">Return policy</a>
+            <a href="#warranty">Warranty</a>
+        </nav> 
+    
+        <section> 
+            <h1>Welcome</h1>
+            <p>Welcome to <strong> All You Need </strong> supermarket</p>
+            <figure>
+                <img class="welcomeImg" src="https://promotions.americanexpress.com.sg/media/3281/3x-star-supermarket-fb-visual.png" alt="supermarket" >
+                <figcaption> <abbr title="AllYouNeed">AYN</abbr> supermarket</figcaption>
+            </figure>
+        
+        
+            <form action="https://wt.ops.labs.vu.nl/api19/2e0bd03a" method="post">
+                <table>
+                    <caption id="topProducts">Top selling products</caption>
+                    <tr>
+                        <th>product</th> <th>origin</th> <th>best before date</th> <th>amount</th> <th>image</th>
+                    </tr>
+                    <tr>
+                        <td>Bread</td> <td>NL</td> <td>10/1/19</td> <td>100kg</td>
+                        <td><img class="itemImg" src=https://glutenvrij.bakkerleo.nl/wp-content/uploads/2017/11/Meergranenbrood-zonder-gluten-.jpg alt="bread" ></td>
+                    </tr>
+                    <tr>
+                        <td>Milk</td> <td>NL</td> <td>9/1/19</td> <td>200L</td> <td><img class="itemImg" src=https://skepsis.nl/mainsite/inhoud/uploads/2015/12/melk.jpg alt="milk" > </td>
+                    </tr>
+                    <tr>
+                        <td>Cola</td> <td>US</td> <td>31/12/19</td> <td>1000L</td> <td><img class="itemImg" src=http://images.quickoffice.nl/pictures/003/600x450/Frisdrank-Coca-Cola-Regular-blikje-0-33l-(c)897061.jpg alt="cola"> </td>
+                    </tr>
+                    <tr>
+                        <td> <input class="text" type="text" name="product" value="Beer" required> </td>
+                        <td> <input class="text" type="text" name="origin" value="DE"> </td>
+                        <td> <input class="date" type="date" name="best_before_date" value="2019-12-31"> </td> <!--this type of input is not supported by Safari-->
+                        <td> <input class="text" type="text" name="amount" value="300L"> </td>
+                        <td> <input class="url"  type="url" name="image" value="https://www.beerhawk.co.uk/media/catalog/product/g/e/german_beer_mixed_case_master.png"> </td>
+                    </tr>
+                </table>   
+                <input class="submit" type="submit" value="Submit">
+            </form>
+            <br>  
+                      
+            <table>
+                <caption id="openingTimes">Opening times</caption>
+                <tr>
+                    <th>Day</th> <th>Hours</th>
+                </tr>
+                <tr>
+                    <td>Monday-Friday</td>
+                    <td>08:00-21:00</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>09:00-18:00</td> 
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>12:00-18:00</td> 
+                </tr>
+                <tr>
+                    <td>Official holidays</td> <td>closed</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section>
+            <h2 id= "contact">Contact</h2>
+            <ul>
+              <li>Address</li>
+              <li>Phone</li>
+              <li>E-mail</li>
+            </ul>
+    
+            <h2 id = topStaff>Top staff</h2>
+            <ol>
+              <li>Miko</li>
+              <li>Jack</li>
+              <li>May</li>
+            </ol> 
+    
+            <h2 id = "service">Service</h2>
+            <dl>
+                <dt>Customer service</dt>
+                <dd>We deliver the highest service to customers with respect to delivery and bonus.</dd>
+                <dt>Company service</dt>
+                <dd>We deliver the highest service to other companies with respect to cooperation.</dd>
+                <dd>Please visit <a href="http://www.w3school.com.cn">our partners. </a></dd>
+            </dl> 
+            
+            <h2 id = "returnPolicy">Return policy</h2>
+            <p>
+                Products can be returned within 7 days with a receipt to the local shop. <span class="return_policy">Fresh products and products that need refrigerating or freezing cannot be returned.</span>
+            </p>
+            
+            <h2 id = "warranty">Warranty</h2>
+            <p class="warranty">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nos vero, inquit ille; Respondeat totidem verbis. Profectus in exilium Tubulus statim nec respondere ausus; Duo Reges: constructio interrete. 
+            </p>
+            <p class="warranty">
+                Suo genere perveniant ad extremum; Nihilo magis. Atqui reperies, inquit, in hoc quidem pertinacem; Sed fortuna fortis; Quae cum dixisset paulumque institisset, Quid est? 
+            </p>
+
+            <p>
+                Have a nice day. <em>---From All you need</em>
+            </p>
+        
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+            </a>
+        </p>
+        
+            <pre>
+                All rights reserved.
+            </pre>
+        </section>
+    </body>
+</html>

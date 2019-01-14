@@ -1,0 +1,196 @@
+body {
+  background-color: lightblue;
+  background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-08.jpg");
+  background-repeat: repeat;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: arial, sans-serif;
+  font-size: 100%;
+}
+
+nav {
+  background-color: azure;
+}
+ nav, nav a {
+  padding: 14px 14px;
+}
+
+nav a:link {
+  color: darkblue;
+  text-decoration: none;
+}
+nav a:visited {
+  color: green;
+  text-decoration: none;
+}
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+nav a:active {
+  color: red;
+}
+
+
+
+input:focus {
+    background-color:palegreen;
+}
+
+figure {
+    margin: inherit;
+}
+
+table, th, td {
+    background: azure none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-spacing: 1px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+tr {
+    height: 50px;
+}
+
+td, th {
+    padding: 1px;
+    text-align: left;
+}
+
+input {
+    font-size: inherit;
+}
+
+.text, .date, .url{
+    width: 97%;
+}
+
+caption {
+    caption-side: top;
+}
+
+.welcomeImg {
+  height: auto;
+  width: 100%;
+  border: solid;
+}
+
+.itemImg {
+  height: 60px;
+  width: 60px;
+  float: left;
+  vertical-align: baseline;
+}
+
+h1,h2{
+  text-align: center;
+  text-transform: capitalize;
+  color: red;
+  margin-left: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+  color: red;
+  font: 1em arial, sans-serif;
+}
+
+ul {
+    list-style-type: square;
+    list-style-image: url("https://www.kobciye.co/wp-content/uploads/2014/03/arrow.png");
+    list-style-position: outside;
+}
+
+ol {
+    list-style: decimal;
+    list-style-position: inside;
+    animation: mymove 5s infinite;
+}
+
+@-webkit-keyframes mymove {
+  70% {font-size: xx-large;
+      color: red;
+      margin-left: 15px;
+  }
+}
+
+.warranty {
+  text-align: left;
+  text-indent: 50px;
+  color: red;
+  font-variant: small-caps;
+  font-size: 80%;
+}
+
+.return_policy {
+    text-align: center;
+    color:red;
+    text-decoration: underline;
+}
+
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0; /*em is font-size*/
+}
+
+@media (max-width: 600px) { /*for small screens on desktop*/
+  body {
+    background-color: olive;
+  }
+  
+  nav {   
+    display: flex;
+    flex-direction: column;
+  }
+
+  table {
+    width:100%;
+  }
+  
+  th {
+      font-size: 90%;
+  }
+  td {
+      font-size: 85%;
+  }
+  
+  .itemImg {
+  width: 55px;
+  }
+}
+
+@media (max-device-width: 600px) { /*for small mobile device */
+  body {
+    background-color: olive;
+  }
+  
+  nav {   
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+  }
+
+  table {
+    width:100%;
+    font-size: xx-large;
+  }
+  
+  .submit {
+      font-size: xx-large;
+  }
+  
+  .itemImg {
+  width: 55px;
+  }
+}
+
